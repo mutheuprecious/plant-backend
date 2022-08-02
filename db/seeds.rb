@@ -271,3 +271,4 @@ plants.each {|plant| Plant.create(plant)}
 # end
 
 user1 = User.create(email: 'test@email.com', name: 'testuser', password:' abc123', password_confirmation: 'abc123', address: '1234 First St', phone: '1234567890')
+user2 =  User.create(email: 'check@email.com', name: 'user2', password:' 1234', password_confirmation: '1234', address: '567 ave St', phone: '712345678')
