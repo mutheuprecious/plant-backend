@@ -1,0 +1,463 @@
+Started GET "/" for 127.0.0.1 at 2022-08-02 18:45:59 +0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "iplant_backend_development" does not exist
+):
+  
+activerecord (6.0.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1125:in `retrieve_connection'
+activerecord (6.0.5.1) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.5.1) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.5.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.5.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.5.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-08-02 18:46:00 +0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "iplant_backend_development" does not exist
+):
+  
+activerecord (6.0.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1125:in `retrieve_connection'
+activerecord (6.0.5.1) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.5.1) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.5.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.5.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.5.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (140.4ms)[0m  [1m[35mCREATE DATABASE "iplant_backend_development" ENCODING = 'unicode'[0m
+  [1m[35m (75.7ms)[0m  [1m[35mCREATE DATABASE "iplant_backend_test" ENCODING = 'unicode'[0m
+Started GET "/" for 127.0.0.1 at 2022-08-02 18:48:41 +0300
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.5.1) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.5.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.5.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.5.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-08-02 18:48:42 +0300
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.5.1) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.5.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.5.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.5.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (13.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (6.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5827540155090765300)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePlants (20201106210452)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE TABLE "plants" ("id" bigserial primary key, "name" character varying, "image" character varying, "description" character varying, "price" float, "easyToCare" boolean, "lowLight" boolean, "brightLight" boolean, "blooming" boolean, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201106210452"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUsers (20201106210710)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying, "name" character varying, "password_digest" character varying, "address" character varying, "phone" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201106210710"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateTransactions (20201106210740)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "transactions" ("id" bigserial primary key, "user_id" bigint NOT NULL, "plant_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_77364e6416"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_690a014011"
+FOREIGN KEY ("plant_id")
+  REFERENCES "plants" ("id")
+)[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE  INDEX  "index_transactions_on_user_id" ON "transactions"  ("user_id")[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE  INDEX  "index_transactions_on_plant_id" ON "transactions"  ("plant_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201106210740"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateFavorites (20201106210802)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE TABLE "favorites" ("id" bigserial primary key, "user_id" bigint NOT NULL, "plant_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_d15744e438"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_7a1a709a55"
+FOREIGN KEY ("plant_id")
+  REFERENCES "plants" ("id")
+)[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE  INDEX  "index_favorites_on_user_id" ON "favorites"  ("user_id")[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE  INDEX  "index_favorites_on_plant_id" ON "favorites"  ("plant_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201106210802"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddQuantityToTransactions (20201113171148)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "transactions" ADD "quantity" integer DEFAULT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201113171148"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-08-02 15:49:03.109063"], ["updated_at", "2022-08-02 15:49:03.109063"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(5827540155090765300)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.7ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PHALAENOPSIS ORCHID"], ["image", "https://www.plants.com/images/r_1567604554362_20190904-1567604563509.png"], ["description", "If simplicity is your thing, the slender stem and pure blooms of a white orchids make for the perfect plant to bring into your home. But minimalist rule: one thing in, one thing out! Plant Perk: Orchids make great bedroom plants. They naturally absorb carbon dioxide and release oxygen into the air for a more restful night’s sleep."], ["price", 25.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", true], ["created_at", "2022-08-02 15:49:17.398599"], ["updated_at", "2022-08-02 15:49:17.398599"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "CROTON PETRA PLANT"], ["image", "https://www.plants.com/images/r_177036m%20(1)_20200929-1601389474843.jpg"], ["description", "The wide, tapered leaves of the Croton are infused with vibrant shades of red, orange, yellow and green. Prominent veins add style and texture, making this sun-loving, easy-going plant a natural conversation starter. It’s potted in a neutral-toned planter, adding to its versatile style."], ["price", 30.0], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.404320"], ["updated_at", "2022-08-02 15:49:17.404320"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "MAJESTY PALM"], ["image", "https://www.plants.com/images/r_1566416548156_20190821-1566416549015.png"], ["description", "Like royalty from an exotic faraway land, this palm commands loyalty and admiration. Deep green, feather-like fronds with a graceful drape. Her majesty will receive you now. Plant Perk: When you want to escape the concrete jungle, a jungle of lush green palm fronds in your own home is a welcome respite. Arrives in a black nursery grow pot nestled inside of our decorative container."], ["price", 95.5], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.409386"], ["updated_at", "2022-08-02 15:49:17.409386"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "MASS CANE"], ["image", "https://www.plants.com/images/r_1566418513060_20190821-1566418513838.webp"], ["description", "Show the mass cane plant the love it deserves, and it’ll show you its flowers...under the right growing conditions. Beautiful and easy to care for - this one’s popularity is mass-ive. Plant Perk: This slow-growing beauty is one of the most effective plants at removing room toxins that can cause ear, nose and throat irritation."], ["price", 105.99], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.419318"], ["updated_at", "2022-08-02 15:49:17.419318"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PHALAENOPSIS ORCHID"], ["image", "https://www.plants.com/images/r_ors_20191127-1574830304468.webp"], ["description", "Looking for a pop of color to match someone’s unique style? An orchid of peachy orange can help with that. It expresses the same quirky boldness and enthusiasm they do - only with its petals! Plant Perk: Orchids make great bedroom plants. They naturally absorb carbon dioxide and release oxygen into the air for a more restful night’s sleep."], ["price", 30.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", true], ["created_at", "2022-08-02 15:49:17.430388"], ["updated_at", "2022-08-02 15:49:17.430388"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "DEVIL’S IVY (MARBLE QUEEN POTHOS)"], ["image", "https://www.plants.com/images/r_large_20200929-1601415211271.jpeg"], ["description", "With a unique, variegated pattern on its glossy, heart-shaped leaves, our hardy, trailing plant is a very fast grower that’s tolerant to many conditions. And don’t let the name fool you…this vining favorite gets the nickname Devil’s Ivy because it’s nearly impossible to kill. Potted in our exclusive neutral-toned planter, it’s just the mix of low-maintenance and high-style for your space. Plant Perk: Can be trained to grow on a pole or trellis and is a fast grower under the right conditions."], ["price", 24.99], ["easyToCare", false], ["lowLight", true], ["brightLight", false], ["blooming", false], ["created_at", "2022-08-02 15:49:17.441378"], ["updated_at", "2022-08-02 15:49:17.441378"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "RUBBER PLANT (TEARDROP PEPEROMIA)"], ["image", "https://www.plants.com/images/r_177047s_20200929-1601416215342.webp"], ["description", "Whatever your design style, our Teardrop Peperomia aka Baby Rubber Plant will fit right in. Named for its cute, dark-green, teardrop-shaped leaves, this dwarf plant has a light silver stripe down the center, giving it big personality. It’s potted in a neutral-toned planter, adding to its versatile style. Plant Perk: Practically effortless, the Peperomia is slow growing and does not require pruning. If the leaves begin to fall, it means it’s being overwatered."], ["price", 24.99], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", false], ["created_at", "2022-08-02 15:49:17.452214"], ["updated_at", "2022-08-02 15:49:17.452214"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PHALAENOPSIS ORCHID"], ["image", "https://www.plants.com/images/r_1567115247694_20190829-1567115250559.webp"], ["description", "Want to send someone a pretty pick-me-up? A willowy orchid in the color of sunny yellow sends a boost of energy & self-confidence...who doesn’t want that? Plant Perk: Orchids make great bedroom plants. They naturally absorb carbon dioxide and release oxygen into the air for a more restful night’s sleep."], ["price", 30.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", true], ["created_at", "2022-08-02 15:49:17.463354"], ["updated_at", "2022-08-02 15:49:17.463354"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.2ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "SNAKE PLANT (SANSEVIERIA)"], ["image", "https://www.plants.com/images/r_157646mgp_20201029-1604001554366.jpg"], ["description", "Looking sharp with its blade-like leaves, subtly striped for just the right amount of chic, the Sansevieria is an upstanding plant that will do right by any décor. Plant Perk: So good at improving work space air quality that it can actually cut ventilation needs. Hello energy conservation."], ["price", 23.99], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", false], ["created_at", "2022-08-02 15:49:17.471891"], ["updated_at", "2022-08-02 15:49:17.471891"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "BIRDS OF PARADISE"], ["image", "https://www.plants.com/images/r_177050_20200929-1601408821742.jpg"], ["description", "If you like your plants tropical, the Bird of Paradise is absolute perfection. With long, glossy, banana-like leaves, they’re the ultimate indoor statement-makers, with an island vibe that’s kind of like being on vacation right at home. It’s potted in a neutral-toned planter, adding to its versatile style. Plant Perk: The large green leaves of this tropical beauty are good for air purification due to their size."], ["price", 68.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.476231"], ["updated_at", "2022-08-02 15:49:17.476231"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.2ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PEACE LILY (SPATHIPHYLLUM)"], ["image", "https://www.plants.com/images/r_1566417254329_20190821-1566417255317.png"], ["description", "The Peace Lily is as graceful as it is useful... It helps purify the air while its white bracts add just the right touch of simple beauty & positive energy to a space! Available in two sizes, with your choice of planter. Plant Perk: The more soil surface area, the better this plant is at capturing toxins and purifying the air. So, keep those lower leaves trimmed!"], ["price", 55.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", true], ["created_at", "2022-08-02 15:49:17.480465"], ["updated_at", "2022-08-02 15:49:17.480465"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PHALAENOPSIS ORCHID"], ["image", "https://www.plants.com/images/r_1567116573346_20190829-1567116576103.webp"], ["description", "A simple way to spread kindness, beauty and joy? An elegant orchid in the sweet shade of pink. Gift one to a friend or set it up in a social space for everyone to see & share in. Add our natural Ready.Set.Grow heavy cotton canvas tote bag featuring matching fabric handles. Imported and printed in the USA. Plant Perk: Orchids make great bedroom plants. They naturally absorb carbon dioxide and release oxygen into the air for a more restful night’s sleep."], ["price", 25.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", true], ["created_at", "2022-08-02 15:49:17.484770"], ["updated_at", "2022-08-02 15:49:17.484770"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "GOLDEN GATE FICUS BONSAI"], ["image", "https://www.plants.com/images/r_golden%20gate%20med_20200728-1595953051788.jpeg"], ["description", "They say some plants can be high maintenance. Try telling that to our golden gate ficus bonsai. Its ability to thrive in a variety of light conditions makes it a bonsai best seller. Plant Perk: All about artful shaping and training, these trees are great for Zen relaxation."], ["price", 37.5], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.489514"], ["updated_at", "2022-08-02 15:49:17.489514"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.2ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "HANGING AIR PLANT TERRARIUM"], ["image", "https://www.plants.com/images/r_preview_20200415-1586956003972.jpeg"], ["description", "Like a mini garden floating in a glistening drop of water, our hanging glass teardrop terrarium adds a drop of pure joy to any space. Plant Perk: Air plants reduce room dust and increase humidity levels, which could help you fight off that cold faster."], ["price", 17.5], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.493739"], ["updated_at", "2022-08-02 15:49:17.493739"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.2ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "ROSEMARY"], ["image", "https://www.plants.com/images/r_1566417691806_20190821-1566417692303.png"], ["description", "Enjoyed for its fresh scent and culinary benefits, rosemary is a unique and useful houseplant and kitchen companion. Ours arrives in burlap-wrapped planter for a rustic vibe. Feeling the holiday spirit? Add lights and ornaments for trimming."], ["price", 24.5], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.498115"], ["updated_at", "2022-08-02 15:49:17.498115"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.4ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "MINI CACTUS TRIO"], ["image", "https://www.plants.com/images/r_preview%20new_20200117-1579282468048.jpeg"], ["description", "Add a modern, southwestern flair to any room with these 3 amigos. A trio of mini cacti in matching white ceramic planters, each on a hexagon-shaped wood base. Low maintenance. Cheerful. …You get the (e-hem) point. Plant Perk: Despite their prickly demeanor, cacti are known to calm the mind and make us feel more relaxed."], ["price", 37.0], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.502529"], ["updated_at", "2022-08-02 15:49:17.502529"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "MEYER LEMON TREE"], ["image", "https://www.plants.com/images/r_1566494128169_20190822-1566494128635.png"], ["description", "When the lemon obsession is real, the only thing left to do is own a Meyer Lemon Tree. With its pops of yellow and fresh citrus scent, this tree is ready to brighten up any space. Plant Perk: Meyer lemons are sweeter and less acidic than regular lemons, making them a nice addition to salads or desserts."], ["price", 55.0], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.507039"], ["updated_at", "2022-08-02 15:49:17.507039"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.4ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "RED POINSETTIA"], ["image", "https://www.plants.com/images/r_177012_m_RedPoinsettia_20201028-1603919492479.jpg"], ["description", "Deck your halls with a holiday favorite. The poinsettia’s signature red blooms add a bright pop of color, while bringing the right amount of spirit to any space. Designed in a white birch planter, creating a warm, woodsy feel. Available in two sizes. Plant Perk: Take good care of the poinsettia and it’ll rebloom in time for next year’s holiday season."], ["price", 27.5], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.511438"], ["updated_at", "2022-08-02 15:49:17.511438"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "BOSTON FERN HANGING PLANT"], ["image", "https://www.plants.com/images/r_1566417190899_20190821-1566417193862.png"], ["description", "Ready to make friends with one easy-going frond? The Boston Fern is long, graceful, attractive and tolerant - it can handle light and drier conditions than its other fern friends. Just make sure to keep the air circulating around the top of this leafy green! Plant Perk: Excellent air-purifier and restores moisture to the air (good news for anyone who suffers from dry skin, noses or throats!)"], ["price", 35.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.516927"], ["updated_at", "2022-08-02 15:49:17.516927"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "RED ANTHURIUM PLANT"], ["image", "https://www.plants.com/images/r_1566419353280_20190821-1566419354105.png"], ["description", "Who wouldn’t *heart* this showy, exotic plant? With its red, heart-shaped flowers and bright, glossy leaves, it will bloom all year round with the right TLC! Plant Perk: Freshly cut, its flowers can last 14-28 days in a vase, and make a perfect hostess gift!"], ["price", 44.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", true], ["created_at", "2022-08-02 15:49:17.522062"], ["updated_at", "2022-08-02 15:49:17.522062"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "CACTUS DISH GARDEN"], ["image", "https://www.plants.com/images/r_177070C_20200929-1601407828977.jpg"], ["description", "Keep your houseplant game on point with our cactus dish garden. While commanding plenty of attention with their unique style, they don’t demand a lot of your attention when it comes to care. And if that’s not enough to convince you, just take a look at the elegant bowl it arrives in, in soothing shades of blue and white. Plant Perk: Cacti are known to have mood-improving power; being around them can lead to a more peaceful and productive day."], ["price", 35.0], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.526512"], ["updated_at", "2022-08-02 15:49:17.526512"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.2ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "CHRYSANTHEMUM"], ["image", "https://www.plants.com/images/r_177037m_20200821-1598036457816.jpg"], ["description", "Mums for short, these farm stand favorites flaunt multiple bunches of blooms in a variety of bright shades. Our bright orange mum is as happy indoors as it is on the porch or patio. Plant Perk: These showy blooms are popular in arrangements because they last long once cut."], ["price", 29.5], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", true], ["created_at", "2022-08-02 15:49:17.530916"], ["updated_at", "2022-08-02 15:49:17.530916"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "ZZ PLANT (ZAMIOCULCAS ZAMIIFOLIA)"], ["image", "https://www.plants.com/images/r_157648mgp_20201029-1604001512037.jpg"], ["description", "The ZZ plant’s lush, glossy-green leaves cast a chill vibe that reminds you to stop and take a deep, calming breath. Is it normal to like a plant more than people? (Asking for a friend). Available in two sizes. Medium comes with your choice of planter. Plant Perk: Thrives on neglect so you can breathe easy."], ["price", 54.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", false], ["created_at", "2022-08-02 15:49:17.535375"], ["updated_at", "2022-08-02 15:49:17.535375"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "HOYA HEART SUCCULENT"], ["image", "https://www.plants.com/images/r_177062D_20200929-1601388831633.jpg"], ["description", "A plant that says how you feel (without having to say a word). Also known as the “lucky heart” because it’s thought to keep you lucky in love, this succulent brings feel-good warmth to any space. So, if you’re a sucker for easy-care plants, this one’s for you. Available as a single or double heart. Plant Perk: Succulents are drought-resistant, pulling moisture from around them so that all it takes is a simple spritz to keep them thriving. (They’re great for people who travel often.)"], ["price", 24.99], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:49:17.539813"], ["updated_at", "2022-08-02 15:49:17.539813"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "CELOSIA"], ["image", "https://www.plants.com/images/r_177038m_20200821-1598037534461.jpg"], ["description", "Feathery, flame-like burgundy blooms give Celosias their Insta-worthy status. With color and texture to spare, these indoor/outdoor standouts give any size space a big style boost. Available in two sizes. Plant Perk: Celosia make beautiful dried flowers. Simply cut stems and hang upside down to use for display."], ["price", 32.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", true], ["created_at", "2022-08-02 15:49:17.544373"], ["updated_at", "2022-08-02 15:49:17.544373"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@email.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "password_digest", "address", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "test@email.com"], ["name", "testuser"], ["password_digest", "$2a$12$JQfK9E885YFim153fCys7uhAnsD8SJsxEP0bkVa.6K3tZJN/EzRqS"], ["address", "1234 First St"], ["phone", "1234567890"], ["created_at", "2022-08-02 15:49:17.816710"], ["updated_at", "2022-08-02 15:49:17.816710"]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mPlant Load (1.0ms)[0m  [1m[34mSELECT "plants".* FROM "plants" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for 127.0.0.1 at 2022-08-02 18:50:05 +0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.2ms | Allocations: 183)
+Completed 200 OK in 22ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 2060)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-08-02 18:50:05 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.5.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-08-02 18:50:07 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.9ms | Allocations: 179)
+Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 713)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-02 18:50:08 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 7)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 235)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-02 18:50:08 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 8)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 237)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-02 18:50:09 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 7)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 234)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-02 18:50:10 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.0.5.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 7)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 235)
+
+
+  [1m[36mFavorite Load (3.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE DATABASE "iplant_backend_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE "iplant_backend_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5827540155090765300)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(5827540155090765300)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.6ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PHALAENOPSIS ORCHID"], ["image", "https://www.plants.com/images/r_1567604554362_20190904-1567604563509.png"], ["description", "If simplicity is your thing, the slender stem and pure blooms of a white orchids make for the perfect plant to bring into your home. But minimalist rule: one thing in, one thing out! Plant Perk: Orchids make great bedroom plants. They naturally absorb carbon dioxide and release oxygen into the air for a more restful night’s sleep."], ["price", 25.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", true], ["created_at", "2022-08-02 15:55:40.790104"], ["updated_at", "2022-08-02 15:55:40.790104"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "CROTON PETRA PLANT"], ["image", "https://www.plants.com/images/r_177036m%20(1)_20200929-1601389474843.jpg"], ["description", "The wide, tapered leaves of the Croton are infused with vibrant shades of red, orange, yellow and green. Prominent veins add style and texture, making this sun-loving, easy-going plant a natural conversation starter. It’s potted in a neutral-toned planter, adding to its versatile style."], ["price", 30.0], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.797684"], ["updated_at", "2022-08-02 15:55:40.797684"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.4ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "MAJESTY PALM"], ["image", "https://www.plants.com/images/r_1566416548156_20190821-1566416549015.png"], ["description", "Like royalty from an exotic faraway land, this palm commands loyalty and admiration. Deep green, feather-like fronds with a graceful drape. Her majesty will receive you now. Plant Perk: When you want to escape the concrete jungle, a jungle of lush green palm fronds in your own home is a welcome respite. Arrives in a black nursery grow pot nestled inside of our decorative container."], ["price", 95.5], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.809071"], ["updated_at", "2022-08-02 15:55:40.809071"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.4ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "MASS CANE"], ["image", "https://www.plants.com/images/r_1566418513060_20190821-1566418513838.webp"], ["description", "Show the mass cane plant the love it deserves, and it’ll show you its flowers...under the right growing conditions. Beautiful and easy to care for - this one’s popularity is mass-ive. Plant Perk: This slow-growing beauty is one of the most effective plants at removing room toxins that can cause ear, nose and throat irritation."], ["price", 105.99], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.821323"], ["updated_at", "2022-08-02 15:55:40.821323"]]
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.4ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PHALAENOPSIS ORCHID"], ["image", "https://www.plants.com/images/r_ors_20191127-1574830304468.webp"], ["description", "Looking for a pop of color to match someone’s unique style? An orchid of peachy orange can help with that. It expresses the same quirky boldness and enthusiasm they do - only with its petals! Plant Perk: Orchids make great bedroom plants. They naturally absorb carbon dioxide and release oxygen into the air for a more restful night’s sleep."], ["price", 30.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", true], ["created_at", "2022-08-02 15:55:40.833439"], ["updated_at", "2022-08-02 15:55:40.833439"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.5ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "DEVIL’S IVY (MARBLE QUEEN POTHOS)"], ["image", "https://www.plants.com/images/r_large_20200929-1601415211271.jpeg"], ["description", "With a unique, variegated pattern on its glossy, heart-shaped leaves, our hardy, trailing plant is a very fast grower that’s tolerant to many conditions. And don’t let the name fool you…this vining favorite gets the nickname Devil’s Ivy because it’s nearly impossible to kill. Potted in our exclusive neutral-toned planter, it’s just the mix of low-maintenance and high-style for your space. Plant Perk: Can be trained to grow on a pole or trellis and is a fast grower under the right conditions."], ["price", 24.99], ["easyToCare", false], ["lowLight", true], ["brightLight", false], ["blooming", false], ["created_at", "2022-08-02 15:55:40.846098"], ["updated_at", "2022-08-02 15:55:40.846098"]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "RUBBER PLANT (TEARDROP PEPEROMIA)"], ["image", "https://www.plants.com/images/r_177047s_20200929-1601416215342.webp"], ["description", "Whatever your design style, our Teardrop Peperomia aka Baby Rubber Plant will fit right in. Named for its cute, dark-green, teardrop-shaped leaves, this dwarf plant has a light silver stripe down the center, giving it big personality. It’s potted in a neutral-toned planter, adding to its versatile style. Plant Perk: Practically effortless, the Peperomia is slow growing and does not require pruning. If the leaves begin to fall, it means it’s being overwatered."], ["price", 24.99], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", false], ["created_at", "2022-08-02 15:55:40.858641"], ["updated_at", "2022-08-02 15:55:40.858641"]]
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PHALAENOPSIS ORCHID"], ["image", "https://www.plants.com/images/r_1567115247694_20190829-1567115250559.webp"], ["description", "Want to send someone a pretty pick-me-up? A willowy orchid in the color of sunny yellow sends a boost of energy & self-confidence...who doesn’t want that? Plant Perk: Orchids make great bedroom plants. They naturally absorb carbon dioxide and release oxygen into the air for a more restful night’s sleep."], ["price", 30.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", true], ["created_at", "2022-08-02 15:55:40.875193"], ["updated_at", "2022-08-02 15:55:40.875193"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "SNAKE PLANT (SANSEVIERIA)"], ["image", "https://www.plants.com/images/r_157646mgp_20201029-1604001554366.jpg"], ["description", "Looking sharp with its blade-like leaves, subtly striped for just the right amount of chic, the Sansevieria is an upstanding plant that will do right by any décor. Plant Perk: So good at improving work space air quality that it can actually cut ventilation needs. Hello energy conservation."], ["price", 23.99], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", false], ["created_at", "2022-08-02 15:55:40.881562"], ["updated_at", "2022-08-02 15:55:40.881562"]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "BIRDS OF PARADISE"], ["image", "https://www.plants.com/images/r_177050_20200929-1601408821742.jpg"], ["description", "If you like your plants tropical, the Bird of Paradise is absolute perfection. With long, glossy, banana-like leaves, they’re the ultimate indoor statement-makers, with an island vibe that’s kind of like being on vacation right at home. It’s potted in a neutral-toned planter, adding to its versatile style. Plant Perk: The large green leaves of this tropical beauty are good for air purification due to their size."], ["price", 68.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.887778"], ["updated_at", "2022-08-02 15:55:40.887778"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PEACE LILY (SPATHIPHYLLUM)"], ["image", "https://www.plants.com/images/r_1566417254329_20190821-1566417255317.png"], ["description", "The Peace Lily is as graceful as it is useful... It helps purify the air while its white bracts add just the right touch of simple beauty & positive energy to a space! Available in two sizes, with your choice of planter. Plant Perk: The more soil surface area, the better this plant is at capturing toxins and purifying the air. So, keep those lower leaves trimmed!"], ["price", 55.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", true], ["created_at", "2022-08-02 15:55:40.893983"], ["updated_at", "2022-08-02 15:55:40.893983"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "PHALAENOPSIS ORCHID"], ["image", "https://www.plants.com/images/r_1567116573346_20190829-1567116576103.webp"], ["description", "A simple way to spread kindness, beauty and joy? An elegant orchid in the sweet shade of pink. Gift one to a friend or set it up in a social space for everyone to see & share in. Add our natural Ready.Set.Grow heavy cotton canvas tote bag featuring matching fabric handles. Imported and printed in the USA. Plant Perk: Orchids make great bedroom plants. They naturally absorb carbon dioxide and release oxygen into the air for a more restful night’s sleep."], ["price", 25.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", true], ["created_at", "2022-08-02 15:55:40.900299"], ["updated_at", "2022-08-02 15:55:40.900299"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "GOLDEN GATE FICUS BONSAI"], ["image", "https://www.plants.com/images/r_golden%20gate%20med_20200728-1595953051788.jpeg"], ["description", "They say some plants can be high maintenance. Try telling that to our golden gate ficus bonsai. Its ability to thrive in a variety of light conditions makes it a bonsai best seller. Plant Perk: All about artful shaping and training, these trees are great for Zen relaxation."], ["price", 37.5], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.906605"], ["updated_at", "2022-08-02 15:55:40.906605"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "HANGING AIR PLANT TERRARIUM"], ["image", "https://www.plants.com/images/r_preview_20200415-1586956003972.jpeg"], ["description", "Like a mini garden floating in a glistening drop of water, our hanging glass teardrop terrarium adds a drop of pure joy to any space. Plant Perk: Air plants reduce room dust and increase humidity levels, which could help you fight off that cold faster."], ["price", 17.5], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.912939"], ["updated_at", "2022-08-02 15:55:40.912939"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "ROSEMARY"], ["image", "https://www.plants.com/images/r_1566417691806_20190821-1566417692303.png"], ["description", "Enjoyed for its fresh scent and culinary benefits, rosemary is a unique and useful houseplant and kitchen companion. Ours arrives in burlap-wrapped planter for a rustic vibe. Feeling the holiday spirit? Add lights and ornaments for trimming."], ["price", 24.5], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.919332"], ["updated_at", "2022-08-02 15:55:40.919332"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "MINI CACTUS TRIO"], ["image", "https://www.plants.com/images/r_preview%20new_20200117-1579282468048.jpeg"], ["description", "Add a modern, southwestern flair to any room with these 3 amigos. A trio of mini cacti in matching white ceramic planters, each on a hexagon-shaped wood base. Low maintenance. Cheerful. …You get the (e-hem) point. Plant Perk: Despite their prickly demeanor, cacti are known to calm the mind and make us feel more relaxed."], ["price", 37.0], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.925844"], ["updated_at", "2022-08-02 15:55:40.925844"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "MEYER LEMON TREE"], ["image", "https://www.plants.com/images/r_1566494128169_20190822-1566494128635.png"], ["description", "When the lemon obsession is real, the only thing left to do is own a Meyer Lemon Tree. With its pops of yellow and fresh citrus scent, this tree is ready to brighten up any space. Plant Perk: Meyer lemons are sweeter and less acidic than regular lemons, making them a nice addition to salads or desserts."], ["price", 55.0], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.932201"], ["updated_at", "2022-08-02 15:55:40.932201"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "RED POINSETTIA"], ["image", "https://www.plants.com/images/r_177012_m_RedPoinsettia_20201028-1603919492479.jpg"], ["description", "Deck your halls with a holiday favorite. The poinsettia’s signature red blooms add a bright pop of color, while bringing the right amount of spirit to any space. Designed in a white birch planter, creating a warm, woodsy feel. Available in two sizes. Plant Perk: Take good care of the poinsettia and it’ll rebloom in time for next year’s holiday season."], ["price", 27.5], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.938568"], ["updated_at", "2022-08-02 15:55:40.938568"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "BOSTON FERN HANGING PLANT"], ["image", "https://www.plants.com/images/r_1566417190899_20190821-1566417193862.png"], ["description", "Ready to make friends with one easy-going frond? The Boston Fern is long, graceful, attractive and tolerant - it can handle light and drier conditions than its other fern friends. Just make sure to keep the air circulating around the top of this leafy green! Plant Perk: Excellent air-purifier and restores moisture to the air (good news for anyone who suffers from dry skin, noses or throats!)"], ["price", 35.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.944874"], ["updated_at", "2022-08-02 15:55:40.944874"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "RED ANTHURIUM PLANT"], ["image", "https://www.plants.com/images/r_1566419353280_20190821-1566419354105.png"], ["description", "Who wouldn’t *heart* this showy, exotic plant? With its red, heart-shaped flowers and bright, glossy leaves, it will bloom all year round with the right TLC! Plant Perk: Freshly cut, its flowers can last 14-28 days in a vase, and make a perfect hostess gift!"], ["price", 44.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", true], ["created_at", "2022-08-02 15:55:40.949839"], ["updated_at", "2022-08-02 15:55:40.949839"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "CACTUS DISH GARDEN"], ["image", "https://www.plants.com/images/r_177070C_20200929-1601407828977.jpg"], ["description", "Keep your houseplant game on point with our cactus dish garden. While commanding plenty of attention with their unique style, they don’t demand a lot of your attention when it comes to care. And if that’s not enough to convince you, just take a look at the elegant bowl it arrives in, in soothing shades of blue and white. Plant Perk: Cacti are known to have mood-improving power; being around them can lead to a more peaceful and productive day."], ["price", 35.0], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.955135"], ["updated_at", "2022-08-02 15:55:40.955135"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "CHRYSANTHEMUM"], ["image", "https://www.plants.com/images/r_177037m_20200821-1598036457816.jpg"], ["description", "Mums for short, these farm stand favorites flaunt multiple bunches of blooms in a variety of bright shades. Our bright orange mum is as happy indoors as it is on the porch or patio. Plant Perk: These showy blooms are popular in arrangements because they last long once cut."], ["price", 29.5], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", true], ["created_at", "2022-08-02 15:55:40.960437"], ["updated_at", "2022-08-02 15:55:40.960437"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "ZZ PLANT (ZAMIOCULCAS ZAMIIFOLIA)"], ["image", "https://www.plants.com/images/r_157648mgp_20201029-1604001512037.jpg"], ["description", "The ZZ plant’s lush, glossy-green leaves cast a chill vibe that reminds you to stop and take a deep, calming breath. Is it normal to like a plant more than people? (Asking for a friend). Available in two sizes. Medium comes with your choice of planter. Plant Perk: Thrives on neglect so you can breathe easy."], ["price", 54.0], ["easyToCare", true], ["lowLight", true], ["brightLight", false], ["blooming", false], ["created_at", "2022-08-02 15:55:40.965456"], ["updated_at", "2022-08-02 15:55:40.965456"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "HOYA HEART SUCCULENT"], ["image", "https://www.plants.com/images/r_177062D_20200929-1601388831633.jpg"], ["description", "A plant that says how you feel (without having to say a word). Also known as the “lucky heart” because it’s thought to keep you lucky in love, this succulent brings feel-good warmth to any space. So, if you’re a sucker for easy-care plants, this one’s for you. Available as a single or double heart. Plant Perk: Succulents are drought-resistant, pulling moisture from around them so that all it takes is a simple spritz to keep them thriving. (They’re great for people who travel often.)"], ["price", 24.99], ["easyToCare", true], ["lowLight", false], ["brightLight", true], ["blooming", false], ["created_at", "2022-08-02 15:55:40.970629"], ["updated_at", "2022-08-02 15:55:40.970629"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("name", "image", "description", "price", "easyToCare", "lowLight", "brightLight", "blooming", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "CELOSIA"], ["image", "https://www.plants.com/images/r_177038m_20200821-1598037534461.jpg"], ["description", "Feathery, flame-like burgundy blooms give Celosias their Insta-worthy status. With color and texture to spare, these indoor/outdoor standouts give any size space a big style boost. Available in two sizes. Plant Perk: Celosia make beautiful dried flowers. Simply cut stems and hang upside down to use for display."], ["price", 32.0], ["easyToCare", false], ["lowLight", false], ["brightLight", true], ["blooming", true], ["created_at", "2022-08-02 15:55:40.975581"], ["updated_at", "2022-08-02 15:55:40.975581"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@email.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
